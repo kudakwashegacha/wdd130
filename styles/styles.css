@@ -8,4 +8,4 @@ aside img{width:200px; height:auto;}
 main img{width:150px; height:auto; border:1px solid black; padding:2px; box-shadow:0 10px 5px gray;}
 footer{margin-top:20px; border-top:2px solid black; text-align:center;}
 nav{background-color:darkblue; padding:10px;display:block;}
-nav a{color:white; padding:10px; display:black;}
+nav a{color:white; padding:10px; display:block;}
