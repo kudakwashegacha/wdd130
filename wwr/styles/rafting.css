@@ -23,6 +23,22 @@ footer {
     margin: 0 auto;
 }
 
+header {
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav {
+    margin: 0
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
@@ -43,6 +59,41 @@ article {
 
 .hero {
     position: relative;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center
+}
+
+.adventures {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.adventures h2 {
+    width: 100%;
+    text-align: center
+}
+
+.adventures img {
+    width:150px;
+    height: 120px;
+    object-fit: cover;
+
+}
+
+.history h2 {
+    grid-column: 1 / 4;
+    text-align: center
+}
+
+.history img {
+    width: 100%;
+    height: auto
 }
 
 .hero img {
@@ -87,6 +138,7 @@ article {
 header img {
     width: 120px;
     height: auto;
+    justify-self:center
 }
 
 .gallery {
@@ -103,4 +155,11 @@ header img {
     object-fit: cover;
     border: 2px solid #333;
     border-radius: 8px
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
 }
